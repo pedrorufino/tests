@@ -1,4 +1,4 @@
-function toBinary(n:number):any {
+function toBinary(n: number): any {
 
   let binary = ''
 
@@ -13,7 +13,7 @@ function toBinary(n:number):any {
   return largestSequence(binary)
 }
 
-function largestSequence(binary:string):number {
+function largestSequence(binary: string): number {
   let zeroSequences = String(binary).split('1')
 
   // Obter somente valores truthy, neste caso a string '0'
