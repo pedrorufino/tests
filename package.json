@@ -1,17 +1,23 @@
 {
-  "name": "exercices",
+  "name": "tests",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "jest"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pedrorufino/tests.git"
+  },
+  "keywords": [],
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pedrorufino/tests/issues"
+  },
+  "homepage": "https://github.com/pedrorufino/tests#readme",
   "devDependencies": {
     "jest": "^24.9.0"
-  },
-  "dependencies": {
-    "@types/jest": "^24.0.19"
   }
 }

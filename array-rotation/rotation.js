@@ -8,4 +8,4 @@ function rotation(arr, k) {
   return arr
 }
 
-module.exports(rotation)
+module.exports = rotation
