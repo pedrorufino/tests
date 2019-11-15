@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/pedrorufino/tests#readme",
   "devDependencies": {
+    "axios": "^0.19.0",
     "jest": "^24.9.0"
   }
 }
