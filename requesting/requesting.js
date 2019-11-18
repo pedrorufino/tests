@@ -6,6 +6,4 @@ function fetchTeam() {
     .catch(err => err)
 }
 
-module.exports = {
-  fetchTeam
-}
+module.exports = fetchTeam

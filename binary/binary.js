@@ -28,11 +28,9 @@ function getZeroSequences(binary) {
 
   if (zeroSequences.length == 0) {
     return 0
-  } 
-  
-  else {
+  } else {
     let largest = zeroSequences.reduce((acc, el) => acc.length >= el.length ? acc : el)
-    
+
     return largest.length
   }
 }
